@@ -1,56 +1,66 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Concert Tickets</title>
-
-  <!-- External CSS link -->
+  <title>Concert Tickets – Home</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-<body style="font-family: Arial, sans-serif; background-color: #f5f5f5; margin: 40px;">
+<body>
 
-  <h1 style="text-align:center; color:#2b2b52;">🎟️ Concert Tickets Showcase</h1>
+  <header>
+    <h1>🎶 Concert Tickets</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
 
-  <table border="1" cellpadding="10" cellspacing="0" style="width:100%; border-collapse:collapse;">
-    <caption style="font-size:20px; font-weight:bold; margin-bottom:10px;">Upcoming Events</caption>
+  <main>
+    <h2>Available Concerts</h2>
+    <table border="1" cellpadding="10" cellspacing="0">
+      <caption>Upcoming Events</caption>
+      <tr>
+        <th class="col1">Artist</th>
+        <th class="col2">Date</th>
+        <th class="col3">Venue</th>
+        <th class="col4">Seat</th>
+        <th class="col5">Price</th>
+        <th class="col6">Status</th>
+      </tr>
 
-    <tr>
-      <th class="col1">Artist</th>
-      <th class="col2">Date</th>
-      <th class="col3">Venue</th>
-      <th class="col4">Seat</th>
-      <th class="col5">Price</th>
-      <th class="col6">Status</th>
-    </tr>
+      <tr>
+        <td style="background-color:#ffe4e1;">Alicia Keys</td>
+        <td style="background-color:#e0ffff;">12 Nov 2025</td>
+        <td style="background-color:#fafad2;">National Stadium</td>
+        <td style="background-color:#f0e68c;">A05</td>
+        <td style="background-color:#dda0dd;">KES 4,000</td>
+        <td style="background-color:#90ee90;">Available</td>
+      </tr>
 
-    <tr>
-      <td style="background-color:#ffe4e1;">Alicia Keys</td>
-      <td style="background-color:#e0ffff;">12 Nov 2025</td>
-      <td style="background-color:#fafad2;">National Stadium</td>
-      <td style="background-color:#f0e68c;">A05</td>
-      <td style="background-color:#dda0dd;">KES 4,000</td>
-      <td style="background-color:#90ee90;">Available</td>
-    </tr>
+      <tr>
+        <td style="background-color:#add8e6;">Burna Boy</td>
+        <td style="background-color:#f08080;">05 Dec 2025</td>
+        <td style="background-color:#e6e6fa;">Moi International</td>
+        <td style="background-color:#f5deb3;">B10</td>
+        <td style="background-color:#98fb98;">KES 6,500</td>
+        <td style="background-color:#ffb6c1;">Sold Out</td>
+      </tr>
 
-    <tr>
-      <td style="background-color:#add8e6;">Burna Boy</td>
-      <td style="background-color:#f08080;">05 Dec 2025</td>
-      <td style="background-color:#e6e6fa;">Moi International</td>
-      <td style="background-color:#f5deb3;">B10</td>
-      <td style="background-color:#98fb98;">KES 6,500</td>
-      <td style="background-color:#ffb6c1;">Sold Out</td>
-    </tr>
+      <tr>
+        <td style="background-color:#ffe4b5;">Tems</td>
+        <td style="background-color:#d8bfd8;">20 Jan 2026</td>
+        <td style="background-color:#afeeee;">Kasarani Arena</td>
+        <td style="background-color:#ffdab9;">C03</td>
+        <td style="background-color:#e0ffff;">KES 5,500</td>
+        <td style="background-color:#fafad2;">Limited</td>
+      </tr>
+    </table>
+  </main>
 
-    <tr>
-      <td style="background-color:#ffe4b5;">Tems</td>
-      <td style="background-color:#d8bfd8;">20 Jan 2026</td>
-      <td style="background-color:#afeeee;">Kasarani Arena</td>
-      <td style="background-color:#ffdab9;">C03</td>
-      <td style="background-color:#e0ffff;">KES 5,500</td>
-      <td style="background-color:#fafad2;">Limited</td>
-    </tr>
+  <footer>
+    <p>&copy; 2025 Concert Tickets | Designed by Maisey</p>
+  </footer>
 
-  </table>
 </body>
 </html>
