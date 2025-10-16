@@ -1,25 +1,56 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Concert Tickets</title>
-<style>
-  body {font-family: Arial; background: #f8f8f8; padding: 20px;}
-  table {border-collapse: collapse; width: 100%;}
-  th, td {border: 1px solid #555; padding: 10px; text-align: left; color: #fff;}
-  th:nth-child(1){background:#1abc9c;} th:nth-child(2){background:#3498db;}
-  th:nth-child(3){background:#9b59b6;} th:nth-child(4){background:#e67e22;}
-  th:nth-child(5){background:#e74c3c;} th:nth-child(6){background:#f1c40f;}
-  tr:nth-child(2) td:nth-child(1){background:#16a085;} tr:nth-child(2) td:nth-child(2){background:#27ae60;}
-  tr:nth-child(2) td:nth-child(3){background:#2980b9;} tr:nth-child(2) td:nth-child(4){background:#8e44ad;}
-  tr:nth-child(2) td:nth-child(5){background:#d35400;} tr:nth-child(2) td:nth-child(6){background:#c0392b;}
-  tr:nth-child(3) td:nth-child(1){background:#2ecc71;} tr:nth-child(3) td:nth-child(2){background:#1abc9c;}
-  tr:nth-child(3) td:nth-child(3){background:#3498db;} tr:nth-child(3) td:nth-child(4){background:#9b59b6;}
-  tr:nth-child(3) td:nth-child(5){background:#e67e22;} tr:nth-child(3) td:nth-child(6){background:#e74c3c;}
-  tr:nth-child(4) td:nth-child(1){background:#f39c12;} tr:nth-child(4) td:nth-child(2){background:#d35400;}
-  tr:nth-child(4) td:nth-child(3){background:#c0392b;} tr:nth-child(4) td:nth-child(4){background:#7f8c8d;}
-  tr:nth-child(4) td:nth-child(5){background:#95a5a6;} tr:nth-child(4) td:nth-child(6){background:#34495e;}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Concert Tickets</title>
+
+  <!-- External CSS link -->
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+<body style="font-family: Arial, sans-serif; background-color: #f5f5f5; margin: 40px;">
+
+  <h1 style="text-align:center; color:#2b2b52;">🎟️ Concert Tickets Showcase</h1>
+
+  <table border="1" cellpadding="10" cellspacing="0" style="width:100%; border-collapse:collapse;">
+    <caption style="font-size:20px; font-weight:bold; margin-bottom:10px;">Upcoming Events</caption>
+
+    <tr>
+      <th class="col1">Artist</th>
+      <th class="col2">Date</th>
+      <th class="col3">Venue</th>
+      <th class="col4">Seat</th>
+      <th class="col5">Price</th>
+      <th class="col6">Status</th>
+    </tr>
+
+    <tr>
+      <td style="background-color:#ffe4e1;">Alicia Keys</td>
+      <td style="background-color:#e0ffff;">12 Nov 2025</td>
+      <td style="background-color:#fafad2;">National Stadium</td>
+      <td style="background-color:#f0e68c;">A05</td>
+      <td style="background-color:#dda0dd;">KES 4,000</td>
+      <td style="background-color:#90ee90;">Available</td>
+    </tr>
+
+    <tr>
+      <td style="background-color:#add8e6;">Burna Boy</td>
+      <td style="background-color:#f08080;">05 Dec 2025</td>
+      <td style="background-color:#e6e6fa;">Moi International</td>
+      <td style="background-color:#f5deb3;">B10</td>
+      <td style="background-color:#98fb98;">KES 6,500</td>
+      <td style="background-color:#ffb6c1;">Sold Out</td>
+    </tr>
+
+    <tr>
+      <td style="background-color:#ffe4b5;">Tems</td>
+      <td style="background-color:#d8bfd8;">20 Jan 2026</td>
+      <td style="background-color:#afeeee;">Kasarani Arena</td>
+      <td style="background-color:#ffdab9;">C03</td>
+      <td style="background-color:#e0ffff;">KES 5,500</td>
+      <td style="background-color:#fafad2;">Limited</td>
+    </tr>
+
+  </table>
+</body>
+</html>
