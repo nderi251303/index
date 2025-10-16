@@ -1,62 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Concert Tickets – Home</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Concert Tickets – Showcase</title>
+
+  <!-- Internal CSS -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fafafa;
+      margin: 40px;
+      color: #333;
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #2b2b52;
+    }
+
+    table {
+      width: 90%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    }
+
+    th, td {
+      border: 1px solid #444;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      color: white;
+      font-weight: bold;
+    }
+
+    /* Header color classes */
+    .col1 { background-color: #2ecc71; }
+    .col2 { background-color: #3498db; }
+    .col3 { background-color: #9b59b6; }
+    .col4 { background-color: #f39c12; }
+    .col5 { background-color: #e74c3c; }
+    .col6 { background-color: #1abc9c; }
+
+    caption {
+      text-align: left;
+      font-weight: bold;
+      font-size: 20px;
+      margin-bottom: 8px;
+      color: #2b2b52;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      color: #555;
+    }
+  </style>
 </head>
 <body>
 
-  <header>
-    <h1>🎶 Concert Tickets</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-    </nav>
-  </header>
+  <h1>🎶 Concert Tickets Showcase</h1>
 
-  <main>
-    <h2>Available Concerts</h2>
-    <table border="1" cellpadding="10" cellspacing="0">
-      <caption>Upcoming Events</caption>
-      <tr>
-        <th class="col1">Artist</th>
-        <th class="col2">Date</th>
-        <th class="col3">Venue</th>
-        <th class="col4">Seat</th>
-        <th class="col5">Price</th>
-        <th class="col6">Status</th>
-      </tr>
+  <!-- First Table -->
+  <table>
+    <caption>Available Concerts</caption>
+    <tr>
+      <th class="col1">Artist</th>
+      <th class="col2">Date</th>
+      <th class="col3">Venue</th>
+      <th class="col4">Seat</th>
+      <th class="col5">Price</th>
+      <th class="col6">Status</th>
+    </tr>
 
-      <tr>
-        <td style="background-color:#ffe4e1;">Alicia Keys</td>
-        <td style="background-color:#e0ffff;">12 Nov 2025</td>
-        <td style="background-color:#fafad2;">National Stadium</td>
-        <td style="background-color:#f0e68c;">A05</td>
-        <td style="background-color:#dda0dd;">KES 4,000</td>
-        <td style="background-color:#90ee90;">Available</td>
-      </tr>
+    <tr>
+      <td style="background-color:#ffe4e1;">Alicia Keys</td>
+      <td style="background-color:#e0ffff;">12 Nov 2025</td>
+      <td style="background-color:#fafad2;">National Stadium</td>
+      <td style="background-color:#f0e68c;">A05</td>
+      <td style="background-color:#dda0dd;">KES 4,000</td>
+      <td style="background-color:#90ee90;">Available</td>
+    </tr>
 
-      <tr>
-        <td style="background-color:#add8e6;">Burna Boy</td>
-        <td style="background-color:#f08080;">05 Dec 2025</td>
-        <td style="background-color:#e6e6fa;">Moi International</td>
-        <td style="background-color:#f5deb3;">B10</td>
-        <td style="background-color:#98fb98;">KES 6,500</td>
-        <td style="background-color:#ffb6c1;">Sold Out</td>
-      </tr>
+    <tr>
+      <td style="background-color:#add8e6;">Burna Boy</td>
+      <td style="background-color:#f08080;">05 Dec 2025</td>
+      <td style="background-color:#e6e6fa;">Moi International</td>
+      <td style="background-color:#f5deb3;">B10</td>
+      <td style="background-color:#98fb98;">KES 6,500</td>
+      <td style="background-color:#ffb6c1;">Sold Out</td>
+    </tr>
 
-      <tr>
-        <td style="background-color:#ffe4b5;">Tems</td>
-        <td style="background-color:#d8bfd8;">20 Jan 2026</td>
-        <td style="background-color:#afeeee;">Kasarani Arena</td>
-        <td style="background-color:#ffdab9;">C03</td>
-        <td style="background-color:#e0ffff;">KES 5,500</td>
-        <td style="background-color:#fafad2;">Limited</td>
-      </tr>
-    </table>
-  </main>
+    <tr>
+      <td style="background-color:#ffe4b5;">Tems</td>
+      <td style="background-color:#d8bfd8;">20 Jan 2026</td>
+      <td style="background-color:#afeeee;">Kasarani Arena</td>
+      <td style="background-color:#ffdab9;">C03</td>
+      <td style="background-color:#e0ffff;">KES 5,500</td>
+      <td style="background-color:#fafad2;">Limited</td>
+    </tr>
+  </table>
+
+  <!-- Second Table -->
+  <table>
+    <caption>Event Organizers</caption>
+    <tr>
+      <th class="col1">Company</th>
+      <th class="col2">Contact</th>
+      <th class="col3">Email</th>
+      <th class="col4">City</th>
+      <th class="col5">Partnership</th>
+      <th class="col6">Next Event</th>
+    </tr>
+
+    <tr>
+      <td style="background-color:#e0ffff;">Daystar Events</td>
+      <td style="background-color:#fff8dc;">+254 712 334455</td>
+      <td style="background-color:#ffe4e1;">info@daystarevents.com</td>
+      <td style="background-color:#fafad2;">Nairobi</td>
+      <td style="background-color:#f0e68c;">Major Partner</td>
+      <td style="background-color:#98fb98;">Dec 2025</td>
+    </tr>
+
+    <tr>
+      <td style="background-color:#f5deb3;">SoundWave Promotions</td>
+      <td style="background-color:#d8bfd8;">+254 700 998877</td>
+      <td style="background-color:#e6e6fa;">support@soundwave.co.ke</td>
+      <td style="background-color:#ffdab9;">Mombasa</td>
+      <td style="background-color:#afeeee;">Official Sponsor</td>
+      <td style="background-color:#ffe4b5;">Jan 2026</td>
+    </tr>
+
+    <tr>
+      <td style="background-color:#fafad2;">Kenya Music Arena</td>
+      <td style="background-color:#e0ffff;">+254 701 445566</td>
+      <td style="background-color:#fff8dc;">contact@kma.co.ke</td>
+      <td style="background-color:#f5deb3;">Nakuru</td>
+      <td style="background-color:#f0e68c;">Media Partner</td>
+      <td style="background-color:#add8e6;">Feb 2026</td>
+    </tr>
+  </table>
 
   <footer>
     <p>&copy; 2025 Concert Tickets | Designed by Maisey</p>
